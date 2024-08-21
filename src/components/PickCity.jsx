@@ -7,7 +7,7 @@ const PickCity = ({fetchWeatherData,setLoading,setSelectedTown}) => {
 
   useEffect(() => {
     // Načtení seznamu měst z JSON souboru pomocí fetch
-    fetch(".../dist/city.list.json")
+    fetch("/city.list.json")
       .then((response) => response.json())
       .then((data) => {
         setCities(data);
