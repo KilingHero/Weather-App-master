@@ -1,0 +1,15 @@
+weather-app/
+├── public/
+│   ├── img 
+│   ├── city.list.json  
+├── src/
+│   ├── components/
+│   │   ├── DisplayResult.jsx
+│   │   ├── PickCity.jsx
+│   │   └── Weather.jsx
+│   ├
+│   ├── index.css
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── index.html
